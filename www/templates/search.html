@@ -1,0 +1,35 @@
+<ion-view view-title="找导购">
+  <ion-content>
+    <div class="button-bar">
+      <a class="button button-clear">地区</a>
+      <a class="button button-clear">排序</a>
+      <a class="button button-clear">筛选</a>
+    </div>
+    <ion-refresher on-refresh="doRefresh()"></ion-refresher>
+    <ion-list>
+      <a ng-repeat="item in items"
+         href="#app/search/{{item.id}}"
+         class="item item-thumbnail-left">
+        <img ng-src="{{ item.image }}"/>
+        <div class="row">
+          <div class="col col-33"><h2>{{ item.album }}</h2></div>
+          <div class="col col-33">活动</div>
+          <div class="col col-33">距离</div>
+        </div>
+        <div class="row">
+          <div class="col col-50">星级</div>
+          <div class="col col-50">服务人数</div>
+        </div>
+        <div class="row">
+          <div class="col col-20">品牌</div>
+          <div class="col col-20">品类</div>
+        </div>
+        <div class="row">
+          <div class="col col-20">城阳区</div>
+          <div class="col col-80">湘潭路16号天泰城美立方</div>
+        </div>
+      </a>
+    </ion-list>
+    <ion-infinite-scroll on-infinite="doRefresh1()"></ion-infinite-scroll>
+  </ion-content>
+</ion-view>

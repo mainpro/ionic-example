@@ -1,0 +1,33 @@
+{
+  "name": "angular-route-styles",
+  "homepage": "https://github.com/tennisgent/angular-route-styles",
+  "authors": [
+    "Zack Boman <tennisgent@gmail.com>"
+  ],
+  "description": "ability to have route-specific CSS stylesheets",
+  "main": "route-styles.js",
+  "keywords": [
+    "different",
+    "css",
+    "route",
+    "specific"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "e6dd986e1b",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "e6dd986e1b3821f14c77d60f4aa705396cef0b35"
+  },
+  "_source": "git://github.com/tennisgent/angular-route-styles.git",
+  "_target": "*",
+  "_originalSource": "angular-route-styles",
+  "_direct": true
+}

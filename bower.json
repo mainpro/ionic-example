@@ -1,0 +1,9 @@
+{
+  "name": "myApp",
+  "private": "true",
+  "devDependencies": {
+    "ionic": "driftyco/ionic-bower#master",
+    "angular-route-styles": "*",
+    "requirejs": "~2.1.17"
+  }
+}

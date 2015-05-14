@@ -1,0 +1,18 @@
+<ion-view title="tabs" class="view-tabs-top">
+    <div class="tabs-striped   tabs-top">
+        <div class="tabs">
+            <a class="tab-item" ng-class="{active: activeContent=='orders'}" ng-click="setActiveContent('orders')">
+                orders
+            </a>
+            <a class="tab-item"  ng-class="{active: activeContent=='deliveries'}" ng-click="setActiveContent('deliveries')">
+                Deliveries
+            </a>
+        </div>
+    </div>
+    <ion-content has-header="true" padding="true" ng-show="activeContent=='orders'">
+        Orders fake tab
+    </ion-content>
+    <ion-content has-header="true" padding="true" ng-show="activeContent=='deliveries'">
+        Deliveries fake tab
+    </ion-content>
+</ion-view>
