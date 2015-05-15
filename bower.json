@@ -4,6 +4,7 @@
   "devDependencies": {
     "ionic": "driftyco/ionic-bower#master",
     "angular-route-styles": "*",
-    "requirejs": "~2.1.17"
+    "requirejs": "~2.1.17",
+    "ngCordova": "~0.1.15-alpha"
   }
 }

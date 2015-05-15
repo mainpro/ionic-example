@@ -18,9 +18,12 @@
     "start": "http-server -a localhost -p 8080 -c-1 www"
   },
   "cordovaPlugins": [
-    "org.apache.cordova.device",
-    "org.apache.cordova.console",
-    "com.ionic.keyboard"
+    "cordova-plugin-device",
+    "cordova-plugin-console",
+    "com.ionic.keyboard",
+    "cordova-plugin-camera"
   ],
-  "cordovaPlatforms": []
+  "cordovaPlatforms": [
+    "android"
+  ]
 }

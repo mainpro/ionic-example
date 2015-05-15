@@ -86,4 +86,29 @@ angular.module('starter.controllers', [])
             //Move the item in the array
             $scope.activeContent=activeContent;
         };
-    });
+    })
+    .controller('CameraCtrl', function($scope,$cordovaCamera) {
+
+     /*   document.addEventListener("deviceready", function () {
+            var options = {
+                quality: 50,
+                destinationType: Camera.DestinationType.DATA_URL,
+                sourceType: Camera.PictureSourceType.CAMERA,
+                allowEdit: true,
+                encodingType: Camera.EncodingType.JPEG,
+                targetWidth: 100,
+                targetHeight: 100,
+                popoverOptions: CameraPopoverOptions,
+                saveToPhotoAlbum: false
+            };
+            $scope.cameraClick=function(){
+               return $cordovaCamera.getPicture(options).then(function(imageData) {
+                    var image = document.getElementById('myImage');
+                    image.src = "data:image/jpeg;base64," + imageData;
+                }, function(err) {
+                    alert(err);
+                });
+            };
+        }, false);*/
+    })
+;
