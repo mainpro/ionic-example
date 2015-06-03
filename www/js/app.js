@@ -4,7 +4,8 @@
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
 // 'starter.controllers' is found in controllers.js
-angular.module('starter', ['ionic','ngCordova','routeStyles', 'starter.controllers','starter.services'])
+//'ngCordova'
+angular.module('starter', ['ionic','routeStyles', 'starter.controllers','starter.services'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
@@ -97,15 +98,26 @@ angular.module('starter', ['ionic','ngCordova','routeStyles', 'starter.controlle
     }
   }
 })
-      .state('app.camera', {
-        url: "/camera",
+      .state('app.qinjia', {
+        url: "/qinjia",
         views: {
           'menuContent': {
-            templateUrl: "templates/camera.html",
-            controller: 'CameraCtrl'
+            templateUrl: "templates/qinjia.html",
+            controller: 'QinjiaCtrl'
           }
         }
-      });
+      })
+      .state('app.mingpian', {
+        url: "/mingpian",
+        views: {
+          'menuContent': {
+            templateUrl: "templates/mingpian.html",
+            controller: 'MingpianCtrl',
+            css:["css/mingpian.css",'css/er.css']
+          }
+        }
+      })
+  ;
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/app/search');
 });

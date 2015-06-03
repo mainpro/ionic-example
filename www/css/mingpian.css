@@ -1,0 +1,61 @@
+/* Empty. Add your own CSS if you like */
+.icon-er {
+    width: 20%;
+    float:right;
+}
+
+.icon-head {
+    width: 100%;
+    margin: auto;
+    text-align: center
+}
+.icon-ctrl-bottom {
+    width: 50%;
+    margin: auto;
+    text-align: center
+}
+.icon-ctrl {
+    width: 100%;
+    margin: auto;
+    text-align: center
+}
+.icon-logo {
+    width:25%;
+    float: right;
+    position:relative;
+    bottom: 5em;
+}
+.icon-head img {
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border-radius:100%;
+}
+.icon-logo img {
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border-radius:100%;
+}
+
+img{
+    width: 100%;
+}
+.text-title {
+    margin: auto;
+    text-align: center;
+    color:white;
+}
+
+.text-bottom{
+    margin: auto;
+    text-align: center;
+    color: #5F6366 ;
+}
+.div-visibility-hidden{
+    visibility: hidden;
+    height:10%;
+}
+.contentBg{
+    background-image:url("../img/background.png"),url("../img/background01.jpg");
+    background-repeat: no-repeat, no-repeat;
+    background-size: 100%;
+}

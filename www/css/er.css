@@ -1,0 +1,13 @@
+.er-popup{
+
+}
+/*Òþ²ØÍ·*/
+.er-popup .popup-head{
+    display: none;
+}
+/*Ô²½Ç*/
+.er-popup .popup{
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius:5px;
+}

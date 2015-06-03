@@ -1,0 +1,24 @@
+<ion-view view-title="亲加云通讯">
+    <ion-content>
+        <div class="list list-inset">
+            <label class="item item-input">
+                <input  ng-model="username"  placeholder="appkey" >
+            </label>
+            <label class="item item-input">
+                <input  ng-model="appKey"  placeholder="用户名" >
+            </label>
+            <button ng-click="loginQinjia(username,appKey,'')" class="button">
+                登陆
+            </button>
+            <label class="item item-input">
+                <input  ng-model="toUsername"  placeholder="发送给" >
+            </label>
+            <label class="item item-input">
+                <textarea  ng-model="message"  placeholder="内容" ></textarea>
+            </label>
+            <button ng-click="sendMessage(toUsername,message,0)" class="button">
+                发送
+            </button>
+        </div>
+    </ion-content>
+</ion-view>
